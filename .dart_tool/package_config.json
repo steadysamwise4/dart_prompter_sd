@@ -1,0 +1,14 @@
+{
+  "configVersion": 2,
+  "packages": [
+    {
+      "name": "dart_prompter_sd",
+      "rootUri": "../",
+      "packageUri": "lib/",
+      "languageVersion": "2.10"
+    }
+  ],
+  "generated": "2023-08-01T14:36:58.335222Z",
+  "generator": "pub",
+  "generatorVersion": "2.18.2"
+}
