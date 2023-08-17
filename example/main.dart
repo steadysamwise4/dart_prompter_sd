@@ -1,5 +1,4 @@
-import 'package:dart_prompter_sd/src/option.dart';
-import 'package:dart_prompter_sd/src/prompter.dart';
+import 'package:dart_prompter_sd/dart_prompter_sd.dart';
 
 void main() {
   var options = [
@@ -8,6 +7,11 @@ void main() {
   ];
 
   final prompter = Prompter();
-  final usersPick = prompter.ask('What color do you like?', options);
-  print(usersPick);
+
+  String colorCode = prompter.askMultiple('Select a color', options);
+
+  bool answer = prompter.askBinary('Do you like this lib?');
+
+  print(colorCode);
+  print(answer);
 }
