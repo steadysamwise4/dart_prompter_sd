@@ -3,4 +3,4 @@ version: 0.0.1
 description: Dart Library to create CLI wizards
 environment:
   sdk: ">=2.10.0 <3.0.0"
-homepage: https://www.google.com
+homepage: https://github.com/steadysamwise4/dart_prompter_sd
